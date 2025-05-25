@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+*.env
+.env.*
+venv/
+build/
+dist/
+
+# VSCode
+.vscode/
+
+# OS Files
+.DS_Store
+
+# Kubernetes and Docker
+*.log
+*.pid
+*.sqlite3
+*.db
+
+# Docker
+*.tar
+*.img
+docker-compose.override.yml
+
+# Helm
+*.tgz
+
+# Ignore any secrets
+secrets.yaml

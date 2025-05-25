@@ -1,0 +1,15 @@
+replicaCount: 1
+
+image:
+  repository: fastapi-service
+  tag: latest
+  pullPolicy: Never
+
+service:
+  type: NodePort
+  port: 8000
+
+ingress:
+  enabled: true
+  host: fastapi.local
+
